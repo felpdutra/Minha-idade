@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body onload="date()">
+
+    <header>
+        <h1 id="head">QUAL A MINHA IDADE?</h1>
+    </header>
+
+
+
+
+    <main id="container">
+        <div>
+            <p>Ano de nascimento: <input id="nasc" type="number" name="idade"> </p>
+
+            Gênero: <input id="masc" type="radio" name="gender" value="masc" checked>Masculino
+            <input id="fem" type="radio" name="gender" value="fem">Feminino
+
+            <input onclick="calculo()" id="botao" type="button" value="Calcular">
+
+        </div>
+
+        <section id="result">
+            <div>
+                <p id="rIdade">SUA RESPOSTA IRÁ APARECER LOGO ABAIXO!</p>
+                <p id="genero"></p>
+                <img id="img" src="" width="170px" alt="">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section>
+            
+            <div id="inf">Horarario</div>
+            <img id="ilustra" src="" width="100px" alt="">
+
+        </section>
+    </footer>
+
+</body>
+
+<script src="comando.js"></script>
+
+</html>

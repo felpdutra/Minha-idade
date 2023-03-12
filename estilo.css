@@ -1,0 +1,70 @@
+body{
+    background-size: cover;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    color: aliceblue;
+}
+
+
+
+#container{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    background-color: rgb(255, 246, 208);
+    border-radius: 10px;
+    max-width:500px;
+    height: 350px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#nasc{
+    margin-left: 10px;
+    
+}
+
+
+#ilustra{
+    float: right;
+    position: relative;
+    top: 110px;
+  
+}
+
+#inf{
+    color: white;
+    display: inline-block;
+    background-color: black;
+    width: 280px;
+    height: 30px;
+    text-align: end;
+    padding-right: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 130px;
+    right: 55px;
+}
+
+#botao{
+    display: block;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+
+
+#result{
+
+text-align: center;
+}
+
+
+#inf{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
